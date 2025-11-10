@@ -34,28 +34,28 @@ const prova = {
       alternativas: ["Verdadeiro", "Falso"]
     },
     {
-      capacidade: "Utilizar expressões aritméticas, relacionais e lógicas para codificação do algoritmo",
+      capacidade: "Utilizar expressões aritméticas, relacionais e lógicos para codificação do algoritmo",
       contexto: "Durante a validação de formulários, os técnicos precisaram testar se um campo estava preenchido e se a senha era válida.",
       pergunta: "Quais são os conectivos lógicos usados para combinar expressões booleanas?",
       imagem: "",
       alternativas: ["/ * % + -", "< > <= >= == !=", "e ou nao", "Nenhuma das alternativas"]
     },
     {
-      capacidade: "Utilizar expressões aritméticas, relacionais e lógicas para codificação do algoritmo",
+      capacidade: "Utilizar expressões aritméticas, relacionais e lógicos para codificação do algoritmo",
       contexto: "Em uma planilha de controle de lotes, os técnicos precisaram identificar números pares para organizar etiquetas de produtos.",
       pergunta: "Qual o operador completa o teste lógico para definir números pares?\n\nse (numero _____ 2 == 0) { escreva('Par') }",
       imagem: "",
       alternativas: ["<", ">=", "%", "<="]
     },
     {
-      capacidade: "Utilizar expressões aritméticas, relacionais e lógicas para codificação do algoritmo",
+      capacidade: "Utilizar expressões aritméticas, relacionais e lógicos para codificação do algoritmo",
       contexto: "Em uma empresa de treinamento, os técnicos criaram um sistema que calcula a média de desempenho dos colaboradores.",
       pergunta: "Qual o operador completa a fórmula: media = (nota1 _____ nota2) / 2",
       imagem: "",
       alternativas: ["*", "/", "%", "+"]
     },
     {
-      capacidade: "Utilizar expressões aritméticas, relacionais e lógicas para codificação do algoritmo",
+      capacidade: "Aplicar lógica de programação para resolução dos problemas",
       contexto: "Os técnicos do setor financeiro criaram um algoritmo para calcular o valor final com acréscimo de juros.",
       pergunta: "Qual o operador completa a fórmula: valorJuros = valor _____ 1.10",
       imagem: "",
@@ -90,35 +90,35 @@ const prova = {
       alternativas: ["acumulador", "contador", "escreva", "leia"]
     },
     {
-      capacidade: "Utilizar expressões aritméticas, relacionais e lógicas para codificação do algoritmo",
+      capacidade: "Utilizar expressões aritméticas, relacionais e lógicos para codificação do algoritmo",
       contexto: "Em um sistema de autenticação, os técnicos verificaram se a senha digitada é diferente da armazenada.",
       pergunta: "Qual operador representa ‘diferente’ dentro de um teste lógico?",
       imagem: "",
       alternativas: ["==", ">", "<", "!="]
     },
     {
-      capacidade: "Utilizar expressões aritméticas, relacionais e lógicas para codificação do algoritmo",
+      capacidade: "Utilizar expressões aritméticas, relacionais e lógicos para codificação do algoritmo",
       contexto: "Em um relatório de desempenho, os técnicos precisaram listar funcionários com produtividade menor ou igual ao limite definido.",
       pergunta: "Qual operador representa ‘menor ou igual’?",
       imagem: "",
       alternativas: [">", ">=", "<=", "<"]
     },
     {
-      capacidade: "Utilizar as estruturas de controle e repetição adequadas à lógica dos algoritmos",
+      capacidade: "Interpretar a simbologia das representações gráficas para definição do fluxo do algoritmo",
       contexto: "Durante o desenvolvimento de um sistema de escolha de departamentos, os técnicos precisaram selecionar opções entre vários casos.",
       pergunta: "Além da instrução 'se', existe uma outra instrução condicional, qual é?",
       imagem: "",
       alternativas: ["senao", "escolha", "para", "enquanto"]
     },
     {
-      capacidade: "Utilizar as estruturas de controle e repetição adequadas à lógica dos algoritmos",
+      capacidade: "Codificar algoritmos na resolução de problemas",
       contexto: "Em uma planilha automatizada, os técnicos usaram uma estrutura simples para percorrer dados de forma controlada.",
       pergunta: "Qual é a estrutura de repetição mais simples de ser utilizada em dados?",
       imagem: "",
       alternativas: ["para", "se", "faca enquanto", "enquanto"]
     },
     {
-      capacidade: "Utilizar as estruturas de controle e repetição adequadas à lógica dos algoritmos",
+      capacidade: "Aplicar lógica de programação para resolução dos problemas",
       contexto: "Durante a programação de um sistema de controle, os técnicos precisaram identificar comandos que repetem tarefas automaticamente.",
       pergunta: "Qual das instruções abaixo é um laço de repetição?",
       imagem: "",

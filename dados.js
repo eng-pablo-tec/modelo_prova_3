@@ -2,127 +2,164 @@ const prova = {
   data: "Outubro 2025",
   docente: "Pablo Henrique Lima dos Santos",
   curso: "Técnico em Desenvolvimento de Sistemas",
-  unidade: "Lógica de Programação e Estruturas de Controle",
+  unidade: "Testes de Software",
   turma: "Turma M2",
   itens: [
     {
-      capacidade: "Utilizar as estruturas de controle e repetição adequadas à lógica dos algoritmos",
-      contexto: "Em uma empresa de tecnologia, os técnicos criam rotinas automatizadas que executam tarefas diversas vezes sem intervenção manual.",
-      pergunta: "Os laços de repetição também são popularmente conhecidos por...",
+      capacidade: "Identificar o propósito fundamental do menor nível de testes.",
+      contexto: "Um desenvolvedor backend está criando uma nova função para calcular o imposto de vendas. Ele precisa garantir que essa função específica retorne o valor exato, testando-a isoladamente, sem depender do banco de dados ou da interface.",
+      pergunta: "Qual é o tipo de teste que se concentra em verificar o correto funcionamento de módulos, classes ou funções isoladas?",
       imagem: "",
-      alternativas: ["Loops", "Vetor", "Array", "Condicionais"]
+      alternativas: [
+        "Teste de Integração",
+        "Teste de Carga",
+        "Teste de Sistema",
+        "Teste Unitário"
+      ]
     },
     {
-      capacidade: "Utilizar as estruturas de controle e repetição adequadas à lógica dos algoritmos",
-      contexto: "Durante o desenvolvimento de um sistema interno, os técnicos precisaram criar decisões automáticas para aprovar ou rejeitar solicitações.",
-      pergunta: "A função 'se' é um exemplo de uso da estrutura...",
+      capacidade: "Avaliar a comunicação e o fluxo de dados entre diferentes componentes do sistema.",
+      contexto: "Após a conclusão dos testes unitários, a equipe precisa garantir que o módulo de login consiga se comunicar e trocar dados corretamente com o serviço de autenticação (API) no backend.",
+      pergunta: "Qual teste é crucial para o backend e garante que o fluxo de dados entre dois ou mais módulos ou componentes (como um serviço e um banco de dados) está correto?",
       imagem: "",
-      alternativas: ["algoritma", "se entrada de dados", "de repetição", "condicional"]
+      alternativas: [
+        "Teste de Regressão",
+        "Teste Unitário",
+        "Teste de Integração",
+        "Teste de Usabilidade"
+      ]
     },
     {
-      capacidade: "Utilizar as estruturas de controle e repetição adequadas à lógica dos algoritmos",
-      contexto: "Em uma empresa de automação, os técnicos programaram comandos que repetem medições de sensores até atingir um valor esperado.",
-      pergunta: "Quais são as estruturas de repetição em algoritmos?",
+      capacidade: "Reconhecer o teste focado na verificação visual e interativa do software.",
+      contexto: "Um designer entregou o layout final de uma página de checkout. O time de QA precisa garantir que todos os botões, campos de formulário e a disposição dos elementos visuais estejam funcionando e parecendo exatamente como no projeto.",
+      pergunta: "Qual teste se concentra em verificar a aparência visual, a funcionalidade dos elementos de interação e a fidelidade do design do frontend?",
       imagem: "",
-      alternativas: ["se / senao - escolha", "faca - faca enquanto - para", "escreva - leia", "Nenhuma das alternativas"]
+      alternativas: [
+        "Teste de Sistema",
+        "Teste de Integração de API",
+        "Teste de Usabilidade",
+        "Teste de Carga"
+      ]
     },
     {
-      capacidade: "Identificar estruturas de dados para construção do algoritmo",
-      contexto: "Em um sistema de controle de estoque, os técnicos usaram vetores para armazenar a quantidade de produtos em cada prateleira.",
-      pergunta: "Um vetor é uma estrutura de dados para criar uma coleção de dados do mesmo tipo e com tamanho fixo.",
+      capacidade: "Identificar o teste não-funcional que avalia o desempenho sob volume de usuários.",
+      contexto: "Uma plataforma de streaming está se preparando para o lançamento de uma série muito aguardada. A equipe de infraestrutura precisa saber se os servidores aguentarão 1 milhão de requisições por minuto sem que o tempo de resposta exceda 500ms.",
+      pergunta: "Qual teste avalia o desempenho do sistema sob um grande volume de usuários ou transações, medindo métricas como tempo de resposta e throughput?",
       imagem: "",
-      alternativas: ["Verdadeiro", "Falso"]
+      alternativas: [
+        "Teste de Stress",
+        "Teste Funcional",
+        "Teste de Carga",
+        "Teste de Segurança"
+      ]
     },
     {
-      capacidade: "Utilizar expressões aritméticas, relacionais e lógicos para codificação do algoritmo",
-      contexto: "Durante a validação de formulários, os técnicos precisaram testar se um campo estava preenchido e se a senha era válida.",
-      pergunta: "Quais são os conectivos lógicos usados para combinar expressões booleanas?",
+      capacidade: "Compreender o papel dos testes na manutenção e garantia da qualidade após modificações.",
+      contexto: "O time de desenvolvimento fez uma pequena correção de bug na funcionalidade de busca de produtos. Antes de liberar a versão, eles precisam garantir que o carrinho de compras e o processo de pagamento (funcionalidades antigas) continuem operando normalmente.",
+      pergunta: "Qual teste deve ser executado após uma alteração no código para confirmar que as funcionalidades já existentes não foram quebradas ou introduziram novos defeitos?",
       imagem: "",
-      alternativas: ["/ * % + -", "< > <= >= == !=", "e ou nao", "Nenhuma das alternativas"]
+      alternativas: [
+        "Teste Unitário",
+        "Teste de Regressão",
+        "Teste de Aceitação",
+        "Teste Exploratório"
+      ]
     },
     {
-      capacidade: "Utilizar expressões aritméticas, relacionais e lógicos para codificação do algoritmo",
-      contexto: "Em uma planilha de controle de lotes, os técnicos precisaram identificar números pares para organizar etiquetas de produtos.",
-      pergunta: "Qual o operador completa o teste lógico para definir números pares?\n\nse (numero _____ 2 == 0) { escreva('Par') }",
+      capacidade: "Reconhecer o teste que simula o fluxo completo do usuário.",
+      contexto: "Uma aplicação bancária precisa garantir que o fluxo de transferência Pix, desde o login (frontend), a consulta de saldo (backend) até a confirmação da transação (integração de serviços), funcione sem falhas do início ao fim.",
+      pergunta: "Qual teste simula o fluxo completo do usuário, verificando o comportamento da aplicação de ponta a ponta, abrangendo tanto o frontend quanto o backend?",
       imagem: "",
-      alternativas: ["<", ">=", "%", "<="]
+      alternativas: [
+        "Teste de Unidade",
+        "Teste de Integração",
+        "Teste Exploratório",
+        "Teste End-to-End (E2E)"
+      ]
     },
     {
-      capacidade: "Utilizar expressões aritméticas, relacionais e lógicos para codificação do algoritmo",
-      contexto: "Em uma empresa de treinamento, os técnicos criaram um sistema que calcula a média de desempenho dos colaboradores.",
-      pergunta: "Qual o operador completa a fórmula: media = (nota1 _____ nota2) / 2",
+      capacidade: "Identificar o teste focado na experiência humana e facilidade de uso.",
+      contexto: "Uma empresa de software educacional quer saber se o layout do seu novo painel de controle é intuitivo e se os usuários conseguem encontrar a seção de relatórios facilmente.",
+      pergunta: "Qual teste de frontend valida a experiência do usuário (UX), a facilidade de aprendizado e a eficácia da navegação?",
       imagem: "",
-      alternativas: ["*", "/", "%", "+"]
+      alternativas: [
+        "Teste de Fumaça",
+        "Teste de Usabilidade",
+        "Teste de Stress",
+        "Teste de Segurança"
+      ]
     },
     {
-      capacidade: "Aplicar lógica de programação para resolução dos problemas",
-      contexto: "Os técnicos do setor financeiro criaram um algoritmo para calcular o valor final com acréscimo de juros.",
-      pergunta: "Qual o operador completa a fórmula: valorJuros = valor _____ 1.10",
+      capacidade: "Reconhecer a importância e o foco dos testes contra ataques maliciosos.",
+      contexto: "Um sistema de votação eletrônica precisa de validação extrema contra fraudes. Uma equipe de 'hackers éticos' é contratada para tentar injetar código malicioso ou forçar o acesso com senhas incorretas.",
+      pergunta: "Qual teste de backend tem como principal objetivo identificar e mitigar vulnerabilidades, protegendo o sistema contra ataques cibernéticos?",
       imagem: "",
-      alternativas: ["*", "-", "+", "/"]
+      alternativas: [
+        "Teste de Carga",
+        "Teste Funcional",
+        "Teste de Segurança",
+        "Teste de Compatibilidade"
+      ]
     },
     {
-      capacidade: "Identificar estruturas de dados para construção do algoritmo",
-      contexto: "Em um cadastro de funcionários, os técnicos precisaram armazenar a idade de cada colaborador corretamente.",
-      pergunta: "Qual o tipo de dado utilizado para a variável idade?",
+      capacidade: "Identificar o teste que garante a execução em múltiplos ambientes.",
+      contexto: "O novo portal do governo precisa estar acessível a todos os cidadãos, independentemente de estarem usando Chrome, Safari, Firefox, ou navegando a partir de um tablet Android ou iPhone.",
+      pergunta: "Qual teste garante que o frontend e suas funcionalidades operam corretamente em diferentes navegadores, sistemas operacionais e dispositivos?",
       imagem: "",
-      alternativas: ["real", "inteiro", "lógico", "cadeia"]
+      alternativas: [
+        "Teste de Stress",
+        "Teste de Compatibilidade",
+        "Teste de Sistema",
+        "Teste E2E"
+      ]
     },
     {
-      capacidade: "Identificar estruturas de dados para construção do algoritmo",
-      contexto: "No sistema de controle de matrículas, os técnicos criaram um campo para armazenar nomes.",
-      pergunta: "Qual o tipo de dado utilizado para nomeAluno?",
+      capacidade: "Identificar o tipo de teste que valida o cumprimento dos requisitos de negócio sob a perspectiva do cliente.",
+      contexto: "Antes do lançamento oficial, o cliente reúne seus gerentes e usuários-chave para usar o sistema por uma semana e formalmente confirmar se ele atende a todos os requisitos definidos no contrato.",
+      pergunta: "Qual teste representa a validação final e formal do sistema pelo cliente ou usuário final, garantindo que os requisitos de negócio foram atendidos?",
       imagem: "",
-      alternativas: ["inteiro", "real", "lógico", "cadeia"]
+      alternativas: [
+        "Teste Beta",
+        "Teste de Regressão",
+        "Teste de Aceitação",
+        "Teste Unitário"
+      ]
     },
     {
-      capacidade: "Identificar estruturas de dados para construção do algoritmo",
-      contexto: "Em uma empresa, os técnicos criaram um sistema de RH que define se um candidato foi aprovado ou não em um processo seletivo.",
-      pergunta: "Qual o tipo de dado utilizado para a variável 'aprovado'?",
+      capacidade: "Avaliar o comportamento do sistema sob condições extremas para determinar o ponto de falha.",
+      contexto: "A equipe de QA quer descobrir o ponto de ruptura de um servidor de e-mail no backend. Eles simulam um número excessivo e crescente de requisições até que o sistema falhe ou comece a apresentar erros.",
+      pergunta: "Qual teste simula um número excessivo e crescente de transações até que o sistema falhe ou atinja seu limite máximo de capacidade, determinando seu ponto de ruptura?",
       imagem: "",
-      alternativas: ["cadeia", "lógico", "real", "inteiro"]
+      alternativas: [
+        "Teste de Carga",
+        "Teste de Stress",
+        "Teste de Integração",
+        "Teste Funcional"
+      ]
     },
     {
-      capacidade: "Utilizar as estruturas de controle e repetição adequadas à lógica dos algoritmos",
-      contexto: "Durante a criação de um contador de produção, os técnicos precisaram definir quantas vezes o sistema executa uma tarefa repetitiva.",
-      pergunta: "Qual variável é utilizada para controlar a quantidade de loops de um programa?",
+      capacidade: "Reconhecer a abordagem para encontrar falhas inesperadas de forma eficiente.",
+      contexto: "Um testador experiente recebe uma nova funcionalidade no frontend e, em vez de seguir um caso de teste formal, ele decide clicar em sequências incomuns e inserir dados não esperados de forma intuitiva e imediata.",
+      pergunta: "Qual teste é conduzido sem um roteiro pré-definido, onde o testador projeta e executa os testes simultaneamente, buscando falhas inesperadas?",
       imagem: "",
-      alternativas: ["acumulador", "contador", "escreva", "leia"]
+      alternativas: [
+        "Teste Unitário",
+        "Teste de Regressão",
+        "Teste Exploratório",
+        "Teste de Fumaça"
+      ]
     },
     {
-      capacidade: "Utilizar expressões aritméticas, relacionais e lógicos para codificação do algoritmo",
-      contexto: "Em um sistema de autenticação, os técnicos verificaram se a senha digitada é diferente da armazenada.",
-      pergunta: "Qual operador representa ‘diferente’ dentro de um teste lógico?",
+      capacidade: "Distinguir entre o propósito dos testes (o que o sistema faz).",
+      contexto: "A equipe está validando o requisito: 'O usuário deve conseguir realizar o pagamento usando Pix ou Cartão de Crédito'. O foco do teste é garantir que o resultado esperado (a transação) seja concluído com sucesso.",
+      pergunta: "Qual categoria de teste se concentra em verificar se as funcionalidades do sistema (as ações que ele deve executar) operam conforme as especificações dos requisitos de negócio?",
       imagem: "",
-      alternativas: ["==", ">", "<", "!="]
-    },
-    {
-      capacidade: "Utilizar expressões aritméticas, relacionais e lógicos para codificação do algoritmo",
-      contexto: "Em um relatório de desempenho, os técnicos precisaram listar funcionários com produtividade menor ou igual ao limite definido.",
-      pergunta: "Qual operador representa ‘menor ou igual’?",
-      imagem: "",
-      alternativas: [">", ">=", "<=", "<"]
-    },
-    {
-      capacidade: "Interpretar a simbologia das representações gráficas para definição do fluxo do algoritmo",
-      contexto: "Durante o desenvolvimento de um sistema de escolha de departamentos, os técnicos precisaram selecionar opções entre vários casos.",
-      pergunta: "Além da instrução 'se', existe uma outra instrução condicional, qual é?",
-      imagem: "",
-      alternativas: ["senao", "escolha", "para", "enquanto"]
-    },
-    {
-      capacidade: "Codificar algoritmos na resolução de problemas",
-      contexto: "Em uma planilha automatizada, os técnicos usaram uma estrutura simples para percorrer dados de forma controlada.",
-      pergunta: "Qual é a estrutura de repetição mais simples de ser utilizada em dados?",
-      imagem: "",
-      alternativas: ["para", "se", "faca enquanto", "enquanto"]
-    },
-    {
-      capacidade: "Aplicar lógica de programação para resolução dos problemas",
-      contexto: "Durante a programação de um sistema de controle, os técnicos precisaram identificar comandos que repetem tarefas automaticamente.",
-      pergunta: "Qual das instruções abaixo é um laço de repetição?",
-      imagem: "",
-      alternativas: ["se", "escolha", "senao", "Nenhuma das opções"]
+      alternativas: [
+        "Teste de Sistema",
+        "Teste de Usabilidade",
+        "Teste de Aceitação",
+        "Teste de Carga"
+      ]
     }
   ]
 };
